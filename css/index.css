@@ -51,7 +51,7 @@ h2 {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
-  text-transform: uppercase; }
+  text-transform: uppercase;}
   @media (min-width: 1024px) {
     #tag, .info__tag, .main__tag {
       margin: 5px 30px 0 0; } }
@@ -496,5 +496,33 @@ h2 {
       margin-left: 110px; } }
   .main__resume:hover a {
     opacity: 0.6; }
+
+
+.interest-list-container  {
+  display: inline-block;
+}
+
+.interest-list  {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.interest-list-item {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.interest-list-item:before {
+  position: relative;
+  bottom: 0.2ex;
+  margin-right: 20px;
+  content: ">";
+  color: #CFB200;
+  font-family: "FontAwesome";
+  font-size: 10px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
