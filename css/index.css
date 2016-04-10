@@ -36,7 +36,8 @@ a {
   color: #313131;
   background-color: transparent;
   text-decoration: none;
-  white-space: nowrap; }
+  /*white-space: nowrap; */
+}
 
 h1 {
   font-size: 28px;
@@ -524,5 +525,13 @@ h2 {
   font-size: 10px;
 }
 
+@media (max-width: 768px) {
+  .main__project-title {
+    font-size: 14px;
+  }
 
+  .main__project-title:after, .main__resume:after {
+    margin-left: 5px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
