@@ -210,6 +210,7 @@ h2 {
 .info-main {
   opacity: 0;
   width: 100%;
+  padding-top: 10%;
   animation: fadeIn ease-in 1;
   animation-fill-mode: forwards;
   animation-duration: 0.3s;
